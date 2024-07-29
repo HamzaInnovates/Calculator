@@ -49,7 +49,8 @@ def clicked(val):
                 sp = var.get().split(".")
                 if "%" in sp[len(sp)-1] or "*"in sp[len(sp)-1] or "-" in sp[len(sp)-1] or "+" in sp[len(sp)-1]:
                     var.set(var.get()+".")
-                    calc.update()                        
+                    calc.update()
+                        
     else:
         if var.get()!="":
             last_ch = var.get()[-1]
